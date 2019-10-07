@@ -3,7 +3,7 @@
     <property name="created">2019-09-29T14:47:18</property>
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2019.2.2.0.0</property>
-    <property name="modified">2019-10-06T12:32:47</property>
+    <property name="modified">2019-10-07T15:20:26</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <colors>
@@ -28,4 +28,23 @@
     <option name="FILESTATUS_changelistConflict" value="ff79c6" />
     <option name="FILESTATUS_modifiedOutside" value="bd93f9" />
   </colors>
+  <attributes>
+    <option name="HTML_CODE">
+      <value />
+    </option>
+    <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="KOTLIN_LABEL">
+      <value />
+    </option>
+    <option name="MATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="3b514d" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+  </attributes>
 </scheme>
