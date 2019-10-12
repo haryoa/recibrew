@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a646d60-e5df-444b-85ad-7086b337b9ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/recibrew/modeling/transformers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recibrew/modeling/transformers/layers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recibrew/modeling/transformers/transformers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/.ipynb_checkpoints/haryo_00003_baseline_model-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/.ipynb_checkpoints/haryo_00003_baseline_model-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/.ipynb_checkpoints/haryo_00004_Seq2SeqAttention-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/.ipynb_checkpoints/haryo_00004_Seq2SeqAttention-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/haryo_00003_baseline_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/haryo_00003_baseline_model.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recibrew/modeling/nn_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/recibrew/modeling/nn_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recibrew/modeling/preprocessing_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/recibrew/modeling/preprocessing_util.py" afterDir="false" />
-    </list>
+    <list default="true" id="2a646d60-e5df-444b-85ad-7086b337b9ec" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
