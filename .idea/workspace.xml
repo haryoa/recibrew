@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a646d60-e5df-444b-85ad-7086b337b9ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/recibrew/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recibrew/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recibrew/data/preprocessing_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recibrew/modeling/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recibrew/modeling/model_prediction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recibrew/modeling/nn_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recibrew/modeling/preprocessing_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recibrew/modeling/processing_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recibrew/modeling/transformers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recibrew/modeling/transformers/layers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recibrew/modeling/transformers/transformers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/.ipynb_checkpoints/haryo_00003_baseline_model-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/.ipynb_checkpoints/haryo_00003_baseline_model-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/.ipynb_checkpoints/haryo_00004_Seq2SeqAttention-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/.ipynb_checkpoints/haryo_00004_Seq2SeqAttention-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/haryo_00003_baseline_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/haryo_00003_baseline_model.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recibrew/modeling/nn_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/recibrew/modeling/nn_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recibrew/modeling/preprocessing_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/recibrew/modeling/preprocessing_util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -84,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570340295679</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Seq2SeqAttention">
+      <created>1570363301779</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570363301779</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,16 +115,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New" />
-    <option name="LAST_COMMIT_MESSAGE" value="New" />
+    <MESSAGE value="Add Seq2SeqAttention" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Seq2SeqAttention" />
   </component>
   <component name="WindowStateProjectService">
     <state x="449" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1570356779775">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1570356779775" />
-    <state x="477" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1570356799931">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1570766621854">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1570356799931" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1570766621854" />
+    <state x="361" y="142" key="Vcs.Push.Dialog.v2" timestamp="1570363320285">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="142" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1570363320285" />
+    <state x="477" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1570694541137">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1570694541137" />
   </component>
 </project>
