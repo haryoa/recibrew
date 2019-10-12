@@ -37,7 +37,7 @@ class Decoder(tf.keras.Model):
         x = self.embedding(x)
 
         # passing the concatenated vector to the GRU
-        output, state = self.gru(x)
+        output, state = self.gru(x, initial_state=hidden)
 
         # output shape == (batch_size * 1, hidden_size)
         output = tf.reshape(output, (-1, output.shape[2]))
@@ -111,3 +111,4 @@ class DecoderAttention(tf.keras.Model):
         x = self.fc(output)
 
         return x, state, attention_weights
+

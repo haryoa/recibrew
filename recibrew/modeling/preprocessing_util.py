@@ -13,9 +13,11 @@ def create_tokenize(lang, data_fit_for_tokenize, lang_tokenizer=None):
                                                            padding='post')
     return tensor, lang_tokenizer
 
+
 def get_seq_max_len(dataset):
     example_input_batch, example_target_batch = next(iter(dataset))
     return example_input_batch.shape, example_target_batch.shape
+
 
 def prepare_to_dataset_tf(batch_size, input_tensor_train, target_tensor_train, buffer_size):
     dataset = tf.data.Dataset.from_tensor_slices((input_tensor_train, target_tensor_train)).shuffle(buffer_size)
