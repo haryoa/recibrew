@@ -1,3 +1,2 @@
 # recibrew
-
-Just a fun ML Project
+A self project to generate Indonesian recipe!
